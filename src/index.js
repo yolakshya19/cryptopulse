@@ -11,3 +11,5 @@ root.render(
     </ChakraProvider>
   </React.StrictMode>
 );
+
+export const server = `https://pro-api.coingecko.com/api/v3/coins/markets?vs_currency=inr`;
